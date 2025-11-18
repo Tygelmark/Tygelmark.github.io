@@ -34,12 +34,16 @@ nav {
     
     .hero{
         background-color: blue;
-        height: 80vh;
+        /* height: 80vh; */
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 0 0 10px 45px;
+        /* padding: 0 0 10px 45px; */
         gap: 150px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    
+        
         
 
         }
@@ -55,4 +59,60 @@ nav {
             border-radius: 15px;
             padding: 10px;
             color: white;
+            margin-top: 60px;
         }
+
+        .golf h3{
+       
+        BAckground-color: black
+
+    
+        }
+
+        .info-text{
+            background-color: black;
+            border-radius: 15px;
+            padding: 10px;
+            color: white;
+            padding: 50px;
+            width: 500px;
+            /* margin-left: 500px; */
+            /* padding down: 70px; */
+            Margin-left: 100px;
+            padding: 60px;
+
+        }
+
+   .info-section img{
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+   }
+   .info-section {
+    display: flex;
+    }
+
+
+
+
+
+        body {
+            background-color: blue;
+        }
+
+        header {
+            background-color: blue;
+        }
+        nav {
+            background-color: blue;
+        }
+        .hero {
+            background-color: blue;
+        }
+        main {
+            background-color: blue;
+        }
+
+
+    
