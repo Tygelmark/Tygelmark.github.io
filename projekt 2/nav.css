@@ -10,7 +10,7 @@ body {
 }
  
 nav {
-    background-image: linear-gradient(rgb(66, 49, 66), rgb(4, 0, 255));
+    background-image: linear-gradient(rgb(18, 0, 99), rgb(4, 0, 255));
     padding: 1rem 0rem;
     position: sticky;
     top: 0;
@@ -20,7 +20,7 @@ nav {
  
 .nav-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@ nav {
 }
  
 .logo {
-    color: white;
+    color: rgb(254, 3, 3);
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -41,7 +41,7 @@ nav {
 }
  
 .nav-menu a {
-    color: white;
+    color: rgb(252, 4, 4);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 10px;
@@ -49,11 +49,11 @@ nav {
 }
  
 .nav-menu a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(252, 4, 4, 0.2);
 }
  
 .nav-menu a:active {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(248, 6, 6, 0.3);
     font-weight: bold;
 }
  
