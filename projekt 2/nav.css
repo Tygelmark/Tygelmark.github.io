@@ -284,8 +284,8 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .color-blue{background: #3498db;color:white}
-.color-blue{background: #3498db;color:white}
-.color-blue{background: #3498db;color:white}
+.color-blue{background: #3498db;color:rgb(242, 6, 6)}
+.color-blue{background: #3498db;color:rgb(5, 121, 230)}
 .color-blue{background: #3498db;color:white}
 
 @media (max-width: 768px){
