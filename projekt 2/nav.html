@@ -82,21 +82,23 @@ Responsivitet: Tänker att den bara ska fungera nu i början iallfall bara på d
             </div>
         </div>
 
-       <div class=".portfoilo.section">
+       <div class="portfoilo-section">
         <h2 class="section-title">vad har jag skapat </h2>
 
         <div class="card-grid">
-            <div class="project card">
-                <div class="card-image">👌</div>
+            <div class="project-card">
+                <div class="card-image">
+                    <img src="" alt="">
+                </div>
                 <div class="card-content">
-                    <h3 class="card-title">retro snake game</h3>
-                    <p class="card-description">ett klassiskt spel. </p>    
+                    <h3 class="card-title">Summer clothes</h3>
+                    <p class="card-description">soft and relaxed </p>    
                     <div class="card-tags">
                         <span class="tag">t-shirt</span>
                         <span class="tag">shorts</span>
                         <span class="tag">keps</span>
                     </div>  
-                    <div class="like section">
+                    <div class="like-section">
                         <button class="like button" on click="togglelike(1)">
                             <span id="heart-1">🤍</span>
                             gilla
@@ -106,11 +108,11 @@ Responsivitet: Tänker att den bara ska fungera nu i början iallfall bara på d
     
                 </div>
             </div>
-            <div class="project card">
+            <div class="project-card">
                 <div class="card-image">👌</div>
                 <div class="card-content">
-                    <h3 class="card-title">retro snake game</h3>
-                    <p class="card-description">ett klassiskt spel. </p>    
+                    <h3 class="card-title">Winter clothes</h3>
+                    <p class="card-description">Warm and cozy </p>    
                     <div class="card-tags">
                         <span class="tag">halsduk</span>
                         <span class="tag">handskar</span>
@@ -126,11 +128,10 @@ Responsivitet: Tänker att den bara ska fungera nu i början iallfall bara på d
     
                 </div>
             </div>
-            <div class="project card">
+            <div class="project-card">
                 <div class="card-image">👌</div>
                 <div class="card-content">
-                    <h3 class="card-title">retro snake game</h3>
-                    <p class="card-description">ett klassiskt spel. </p>    
+                    <h3 class="card-title">Street wear</h3>Soft and Classy                  
                     <div class="card-tags">
                         <span class="tag">kläder</span>
                         <span class="tag">jeans</span>
@@ -151,6 +152,63 @@ Responsivitet: Tänker att den bara ska fungera nu i början iallfall bara på d
 
         </div>
        </div>
+
+       <footer>
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Om fashion store</h3>
+                <p> Vi arbetar med att förbättra oss och vårat innehål varje dag</p>
+                <div class="social-links">
+                    <a href="#" class="social-links">📷</a>
+                    <a href="#" class="social-links">📍</a>
+                    <a href="#" class="social-links">✉️</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Snabblänkar</h3>
+                <ul>
+                    <li><a href="#hem">Tillbaka till toppen</a></li>
+                    <li><a href="#om">Om mig</a></li>
+                    <li><a href="#projekt">Mina projekt</a></li>
+                    <li><a href="#kontakt">Kontakta mig</a></li>
+                </ul>
+            </div>
+       
+            <div class="footer-section">
+                <h3>Kontakta mig</h3>
+                <p>📲 073 094 15 55</p>
+                <p></p>
+                <p>📍 malmö, Sweden</p>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eltons Portfolio. Alla rättigheter förbehållna.</p>
+                <p>Skapad med svett tårar och lyndxns musik |
+                    <a href="#juridik">Juridisk information</a>
+                </p>
+            </div>
+       
+    </div>
+</footer>
+
+
+       <script>
+        function toggleLike(projectId) {
+            const button = document.querySelector(`#heart-${projectId}`).parentNode
+            const heart = document.querySelector(`#heart-${projectId}`)
+ 
+            if (button.classList.contains('liked')) {
+                button.classList.remove('liked')
+                heart.textContent = "🤍"
+                console.log ("unlike")
+            } else {
+                button.classList.add ('liked')
+                heart.textContent = "❤️"
+                console.log("like")
+            }
+        }
+    </script>
     </main>
 
 </body>
