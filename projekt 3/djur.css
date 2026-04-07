@@ -9,5 +9,9 @@ nav{
     background-color: blue;
     padding: 1rem;
     padding-top: 20px;
-    
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
 }
