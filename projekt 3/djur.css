@@ -15,3 +15,7 @@ nav{
     display: flex;
     justify-content: center;
 }
+
+.main-content{
+    color :red;
+}
