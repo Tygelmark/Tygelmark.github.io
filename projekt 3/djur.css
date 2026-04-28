@@ -65,6 +65,15 @@ background-color: red;
     justify-content: center;
 }
 
-.footer{
-    background-color: yellow;
+.main3{
+
+margin-top: 5rem;
+
+
+}
+
+.main3-image {
+
+    display: flex;
+
 }
